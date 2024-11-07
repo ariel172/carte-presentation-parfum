@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+body{
+    background-color:  hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 380px;
+    border-radius: 1em 1em 0 0;
+    margin-bottom: -0.25em;
+}
+
+.container-parent{
+    width: 24em;
+    height: 40em;
+    padding: 1em;
+    max-width: 23.43em;
+} 
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1em;
+    width: 21.8em;
+    border-radius: 0 0 1em 1em;
+}
+
+.button{
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    width: 26em;
+    margin: 1.5em 0 0 0;
+}
+
+.button-text{
+    font-size: 1.2em;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.perfume,.paragraph,.price{
+    font-family:"Montserrat", sans-serif;
+    color:  hsl(228, 12%, 48%);
+    font-size: 0.8em;
+    font-weight: 500;
+    
+}
+
+.title{
+    font-family: "Fraunces", serif;
+    font-size: 2.1em;
+    margin: 0;
+}
+
+.reduced-price{
+    font-size: 2em;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color:  hsl(158, 36%, 37%);
+    margin: 0 0.5em 0 0;
+}
+
+.price{
+    text-decoration: line-through;
+}
+
+.bx{
+    font-size: 1.5em;
+    margin: 0 0.5em 0 0;
+}
+
+
+
+@media (min-width: 64em) {
+    .container-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 90em;
+    } 
+    .image{
+        width: 19em;
+        height: 29em;
+        border-radius: 1em 0 0 1em;
+    }
+    .container{
+        width: 30em;
+        height: 23em;
+        border-radius: 0 1em 1em 0;
+        padding: 3em;
+    }
+    .title{
+        font-size: 2.5em;
+    }
+    .button{
+        padding: 1.2em;
+        width: 18em;
+        margin-top: 2em;
+    }
+    .perfume,.paragraph,.price{
+        font-weight: 500;  
+    }
+    .button:hover{
+        background-color: rgb(23, 74, 56);
+        }
+}
